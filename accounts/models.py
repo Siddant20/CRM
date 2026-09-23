@@ -44,6 +44,3 @@ class Order(models.Model):
 
     date_created = models.DateTimeField(auto_now_add=True)
     status = models.CharField(max_length=255,null= True, choices=STATUS)
-
-    # def __str__(self):
-    #     return self.name
